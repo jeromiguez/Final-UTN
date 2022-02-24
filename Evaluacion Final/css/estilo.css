@@ -1,0 +1,181 @@
+body{
+    
+    font-family: Calibri;
+    padding: 10px 20px;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius:0 20px;
+	text-align: center;
+}
+
+.formulario {
+	background-color: #ffbd33;
+	width: min(30rem, 100%);
+	margin: 0 auto;
+	padding: 2rem;
+	border-radius: 1rem;
+}
+.formulario legend {
+	text-align: center;
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	color: #FFFFFF;
+}
+
+.campo {
+	margin-bottom: 1rem;
+}
+.campo label {
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-bottom: .5rem;
+	display: block;
+}
+
+.inputs {
+	width: 100%;
+	border: none;
+	height: 2rem;
+	border-radius: .2rem;
+}
+
+.boton-ubicacion {
+	display: flex;
+	justify-content: center;
+}
+.boton {
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: .5rem;
+}
+
+.boton:hover {
+	background-color: aquamarine;
+	cursor: pointer;
+}
+
+.divValidaciones { 
+	color: red;
+}
+
+.botones {
+	position: unset;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	gap: 4rem;
+	margin-top: 4rem;
+}
+
+.dinoGame {
+	grid-row: 2 / 3;
+}
+
+.papelGame {
+	grid-column: 2 / 3;
+}
+
+.snakeGame {
+	grid-row: 2 / 3;
+	grid-column: 3 / 4;
+}
+
+.marioGame {
+	grid-row: 2 / 3;
+	grid-column: 2 / 3;
+}
+
+.mario-boton {
+	font-size: 2rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 2rem;
+	margin: 2rem;
+	border-radius: .5rem;
+	background: linear-gradient(red, transparent) #ffbd33;
+	cursor: pointer;
+}
+
+.mario-boton:hover {
+	background: linear-gradient(black, transparent) white;
+	color: white;
+}
+
+.boton-visual {
+	font-size: 2rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 2rem;
+	margin: 2rem;
+	border-radius: .5rem;
+	background: linear-gradient(#ffbd33, transparent) aquamarine;
+	cursor: pointer;
+}
+
+.boton-visual:hover {
+	background: linear-gradient(aquamarine, transparent) #FFE2D1;
+	color: slateblue;
+}
+
+p {
+	font-size: 2rem;
+	text-align: center;
+}
+
+#texto-inicio {
+	text-align: center;
+	font-size: 2rem;
+}
+.tarjetas {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+
+#piedra,
+#papel,
+#tijera,
+#imagenYO {
+	background: linear-gradient(#ffbd33, transparent) #FFE2D1;
+}
+#piedra:hover,
+#papel:hover,
+#tijera:hover {
+	background: linear-gradient(aquamarine, transparent) #FFE2D1;
+}
+
+#imagenPC {
+	background: linear-gradient(brown, transparent) #FFE2D1;
+
+}
+
+.resultado {
+	display: flex;
+	justify-content: center;
+}
+
+.botonP {
+	position: absolute;
+	top: 1rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(#B7D6C7, transparent) #FFE2D1;
+    margin: 30px;
+}
+
+.menu-anterior:hover {
+    background-color: #ffbd33;
+}
+
+.vs {
+	font-size: 6rem;
+}

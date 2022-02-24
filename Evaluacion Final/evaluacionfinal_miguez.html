@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluación Final</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/final.js"></script>
+
+</head>
+<body>
+	
+		<h1>Evaluación Final</h1>
+        
+        <form method="POST" action="juegos.html" class="formulario">
+            <fieldset>
+                <legend>Evaluacion Final</legend>
+                    <div class="campos">
+
+                        <div class="campo">
+                            <label for="nombre">Nombre:</label>
+                            <input class="inputs" type="text" name="nombre" placeholder="Tu nombre..." id="nombre" value="" required>
+                        </div>
+
+                        <div class="divValidaciones" id="valNombre"></div>
+
+                        <div class="campo">
+                            <label for="clave">Clave:</label>
+                            <input class="inputs" type="password" placeholder="Tu clave..." id="pass" required>
+                        </div>
+
+                        <div class="divValidaciones" id="valPass"></div>
+
+                    </div>
+                    
+                    <div class="boton-ubicacion">
+                        <input class="boton" type="submit" value="Enviar" onclick="return formularioVal()">
+                    </div>
+            </fieldset>    
+            
+        </form>
+
+        
+
+	
+</body>
+</html>
